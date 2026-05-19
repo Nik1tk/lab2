@@ -1,9 +1,18 @@
 from math import*
+<<<<<<< HEAD
+a=int(input("Введите кэффициент а:"))
+b=int(input("Введите кэффициент b:"))
+c=int(input("Введите кэффициент c:"))
+if not isinstance(a, (int, float)) or not isinstance(b, (int, float)) or not isinstance(c, (int, float)):
+        raise TypeError("Arguments must be numbers")
+
+=======
 a=int(input("Введите кэффициент а:"))
 b=int(input("Введите кэффициент b:"))
 c=int(input("Введите кэффициент c:"))
 if not isinstance(a, (int, float)) or not isinstance(b, (int, float)) or not isinstance(с, (int, float)):
         raise TypeError("Arguments must be numbers")
+>>>>>>> develop
 D=(b**2)-4*a*c
 if D>0:
     x1=(-b-(sqrt(D)))/(2*a)
